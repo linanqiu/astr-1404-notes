@@ -1,0 +1,122 @@
+\documentclass[11pt]{scrartcl}
+\usepackage{dominatrix}
+\usepackage{solarized-light}
+\lstset{
+language=python
+}
+
+\renewcommand\thesection{Problem \arabic{section}}
+\renewcommand\thesubsection{\arabic{section} (\alph{subsection})}
+\renewcommand\thesubsubsection{(\roman{subsubsection})}
+\DeclareMathOperator{\AU}{AU}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\pc}{pc}
+\DeclareMathOperator{\km}{km}
+\DeclareMathOperator{\cm}{cm}
+\DeclareMathOperator{\s}{s}
+
+\newcommand\pow[2]{\ensuremath{#1 \times 10^{#2}}}
+
+\title{Problem Set 1}
+\subject{ASTR 1404 Stars, Galaxies, and Cosmology}
+%\author{James H. Applgate}
+\begin{document}
+\maketitle
+
+Recall the \textbf{Law of Skinny Triangles}
+
+\[a = \theta \cdot D\]
+
+where $\theta$ is in radians, $a$ and $D$ are in same units.
+
+An alternative way to write this is in AU, arcsecs, and parsecs (pc):
+
+\[a(\AU) = \theta (\arcsec) \cdot D (\pc)\]
+
+where $1\AU = \pow{1.5}{13}$ and $1\pc = \pow{3.09}{18}$
+
+\section{}
+
+Compute the number of
+
+\begin{itemize}
+\item degrees in a radian
+\item arcminutes in a radian
+\item arcseconds in a radian
+\item radians in a degree
+\item radians in a arcminute
+\item radians in an arcsecond
+\end{itemize}
+
+
+\section{}
+
+Compute teh angular separation of the Earth-Moon system as seen from the Sun The Earth-Moon distance is $D_M = 384,000\km$. $1\AU = \pow{1.5}{13}$
+
+
+\section{}
+
+The diameter of Jupiter is $143,000\km$. the closest the Earth and Jupiter ever get is about $4\AU$ or $\pow{6}{13}$.
+
+\subsection{}
+
+What is the angular diamter of Jupiter as seen from the Earth?
+
+\subsection{}
+
+Can you see this with your unaided eye? How about with a small telescope?
+
+
+\section{}
+
+The angular diameter of Saturn's ring system is $39 \arcsec$. The distance to Saturn is $\pow{1.3}{14}\cm$. What is the physical diameter of Saturn's rings?
+
+
+\section{}
+
+Venus is $0.28\AU$ from the Earth during a transit of the sun. Two observers separated by a North-South distance of $R_E = \pow{6.37}{8}\cm$ will see the path of Venus across the solar dish displaced by a parallax of $31.3\arcsec$. How big is $1\AU$?
+
+
+\section{}
+
+Pluto is $40\AU = \pow{6}{14}\cm$ from the Earth. The Pluto-Charon separation is $a = 19,600\km$. What is the Pluto-Charon angular separation as seen from the Earth? Is the Pluto-Charon system resolvable with a ground based telescope?
+
+
+\section{}
+
+The distance from Earth to Jupiter is $4\AU = \pow{6}{13}\cm$. The radii of the orbits of the 4 large moons of Jupiter (Galilean Satellites) are given below. Compute the angular sizes of the orbits as seen from Earth.
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c c}
+\toprule
+Moon & Distance to Jupiter (Moon to Jupiter) \\
+\midrule
+Io & $422,000\km$ \\
+Europa & $671,000\km$ \\
+Ganymede & $1,070,000\km$ \\
+Callisto & $1,880,000\km$ \\
+\bottomrule
+\end{tabular}
+\caption{Distances to Jupiter from Jupiter's moons}
+\end{table}
+
+
+\section{}
+
+The parallax of the star Sirius is $0.37\arcsec$. What is the distance to Sirius  in (a) parsecs, (b) meters, and (c) light years. Note that the speed of light, $c$, is $c = \pow{3}{10}\cm/\s$
+
+
+\section{}
+
+The parallax of the closest star, $\alpha$Cen, is $0.75\arcsec$.
+
+\subsection{}
+
+What is the distance to $\alpha$Cen?
+
+\subsection{}
+
+What is the angular separation between the Sun and Jupiter as seen from $\alpha$Cen? The Sun-Jupiter distance is $5.2\AU$.
+
+\end{document}
